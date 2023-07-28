@@ -1,0 +1,23 @@
+﻿rows 0-49
+right:  row = 149 - row , column = 99 , left
+down: row = column - 50 , column = 99 , left
+left: row = 149 - row , column = 0, right
+up 50-99: row = 100 + column , column = 0 , right
+up 100-149: row= 199 , column = column - 100, up
+
+rows 50-99
+left: row = 99 - row , column = column , right
+right: row = 49 , column = row , up
+
+rows 100-149
+right: row = 149 - row , column = 149 , left
+down: row = 100 + column , column = 49 , left
+left: row = 149 - row , column = 50 , right 
+up: row = 50 + column   , column = 49 , right
+
+rows 150-199
+right: row = 149 , column = row - 100 , up
+down: row = 0 , column = column + 100 , down
+left: row = 0 , column = row - 100 , down
+
+
